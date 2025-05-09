@@ -1,0 +1,195 @@
+{
+    "meeting_date": "2025-05-01T08:02:12.600000-05:00",
+    "meeting_status": "COMPLETED",
+    "meeting_title": "Onboarding meeting with Duplication family",
+    "meeting_type": "ONBOARDING",
+    "sections": [
+      {
+        "header": "Summary",
+        "sections": [
+          {
+            "id": "881307f7-abde-463f-a850-a20282773fc3",
+            "name": "Summary",
+            "header": "Summary",
+            "description": "",
+            "order_no": 0,
+            "unstructured_facts": [
+              {
+                "id": "b9ac0c3b-3cd8-483e-9e7c-d1ec15c5ceb5",
+                "content": "Discussed the significant dental expenses incurred, totalling over £8,000, and the impact on personal finances.",
+                "order_no": 0,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "347bef54-5132-4103-9e88-b53a5d4eaa34",
+                "content": "Reviewed ongoing health concerns, including recent scans and upcoming day surgery for a skin issue, with regular check-ups by skincare nurses and consultants.",
+                "order_no": 1,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "615e64e9-c33b-45ad-b4ca-b6351b0f6064",
+                "content": "Explored holiday plans and the challenges of obtaining travel insurance due to pre-existing health conditions, with a mention of a company called AllClear that provided coverage.",
+                "order_no": 2,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "32330bf4-c3ed-4cbd-b8a7-a8ddd3b119b4",
+                "content": "Updated on the status of the will, which has been redone, but faced issues with inaccuracies from the legal firm, leading to dissatisfaction with their service.",
+                "order_no": 3,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "394e0b71-50b3-4a58-a679-ba09ac0d6e7d",
+                "content": "Reviewed financial position, highlighting a healthy investment portfolio with a growth of £16,108 over the last year, and discussed the impact of potential care costs on future finances.",
+                "order_no": 4,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "8e4c8496-6b5a-4439-a661-43287c6c4c48",
+                "content": "Explored the use of a trust fund and property as potential resources for future care needs, with a focus on maintaining financial stability.",
+                "order_no": 5,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "8e064ad0-a908-442c-8366-5c84e5cac8cb",
+                "content": "Discussed the use of a client portal for accessing financial documents and updates, with a demonstration of how to register and use the portal.",
+                "order_no": 6,
+                "status": "VERIFIED"
+              }
+            ],
+            "structured_facts": []
+          }
+        ]
+      },
+      {
+        "header": "Relationship Building",
+        "sections": [
+          {
+            "id": "f58a8516-6230-42ca-a226-db354f822022",
+            "name": "Relationship Building Facts",
+            "header": "Relationship Building",
+            "description": "",
+            "order_no": 0,
+            "unstructured_facts": [
+              {
+                "id": "c9434103-12ca-4280-a0fd-1d60a5b6138e",
+                "content": "Liz enjoys walking and exercise but was limited due to an open wound from surgery, which affected her ability to engage in these activities.",
+                "order_no": 0,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "d5e5386a-adc2-4018-89b5-57a6c5c6259b",
+                "content": "Liz has a holiday planned in May with her family, including her brother, his wife, her nephew, and great-nephews. They have separate accommodations to maintain independence during the trip.",
+                "order_no": 1,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "a6228eec-0bdd-4fb4-b7f2-3a2aa8cd688b",
+                "content": "Liz is planning a trip to Lutford with a friend in June to visit gardens, using a farmhouse B&B she previously enjoyed.",
+                "order_no": 2,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "a87ef8cb-b9f6-4f59-9735-ad2f8b2b5a87",
+                "content": "Liz has a strong relationship with her nephew and great-nephews, who are three years old and one year old. Her nephew runs his own business and is under pressure due to family and work commitments.",
+                "order_no": 3,
+                "status": "VERIFIED"
+              }
+            ],
+            "structured_facts": []
+          }
+        ]
+      },
+      {
+        "header": "Financial Plans",
+        "sections": [
+          {
+            "id": "71fa4dec-2272-46a1-b286-1c3c99ddf619",
+            "name": "Goals",
+            "header": "Financial Plans",
+            "description": "",
+            "order_no": 1,
+            "unstructured_facts": [
+              {
+                "id": "b406ea7e-0ae9-4c51-8611-46a020392e10",
+                "content": "Liz's financial goal is for her investments to provide her with £400 a month, and she has been withdrawing money regularly to ensure she has enough in her bank account for her needs.",
+                "order_no": 0,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "8d4d6176-1893-4b30-aee7-d2ceab7f2165",
+                "content": "Liz is considering moving to Dorchester to be closer to a train line and the coast, which she has always lived near. This move is also considered in case she can no longer drive.",
+                "order_no": 1,
+                "status": "VERIFIED"
+              }
+            ],
+            "structured_facts": []
+          },
+          {
+            "id": "e7625eba-ad1e-4156-8ddc-84858bfc2bc3",
+            "name": "Cashflow Planning",
+            "header": "Financial Plans",
+            "description": "",
+            "order_no": 3,
+            "unstructured_facts": [
+              {
+                "id": "8e2edc52-4b9e-4245-bcc0-8f205ce17ccc",
+                "content": "Liz's income and expenditure are closely matched, with £1,455 coming in monthly and £1,382 being spent, including holidays.",
+                "order_no": 0,
+                "status": "VERIFIED"
+              },
+              {
+                "id": "4b79336e-d9b2-4359-8f8f-9b65385ed8f0",
+                "content": "Liz's financial projections indicate that her invested money would run out around age 88-89, but she is currently in a healthy financial position.",
+                "order_no": 1,
+                "status": "VERIFIED"
+              }
+            ],
+            "structured_facts": []
+          }
+        ]
+      },
+      {
+        "header": "Vulnerabilities",
+        "sections": [
+          {
+            "id": "75c86d69-1a18-4123-be2a-4aba5f2b48e3",
+            "name": "Health",
+            "header": "Vulnerabilities",
+            "description": "",
+            "order_no": 0,
+            "unstructured_facts": [
+              {
+                "id": "455e8e2d-e91a-4efe-9abd-ef9aa6019bae",
+                "content": "Critical health vulnerability affecting financial decisions due to recurring melanoma treatments and immunotherapy side effects, leading to a weakened immune system and frequent infections as reported by the client.",
+                "order_no": 0,
+                "status": "VERIFIED"
+              }
+            ],
+            "structured_facts": []
+          }
+        ]
+      },
+      {
+        "header": "Risks",
+        "sections": [
+          {
+            "id": "0eea3057-4d53-417a-b1d1-0cc5e9174b87",
+            "name": "Risk Tolerance",
+            "header": "Risks",
+            "description": "",
+            "order_no": 0,
+            "unstructured_facts": [
+              {
+                "id": "c7be0436-cd26-4be8-8ec6-0564a697ac72",
+                "content": "The Duplication family has a moderate risk tolerance, indicated by their comfort with a risk profile of 5 out of 10. They mentioned, 'I'm in low to medium level 5 or something, I think it was. So I'm nearer the medium than I am.' This suggests they are comfortable with some level of risk but not extreme fluctuations.",
+                "order_no": 0,
+                "status": "VERIFIED"
+              }
+            ],
+            "structured_facts": []
+          }
+        ]
+      }
+    ]
+  } 

@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-primary font-dm-sans;
+  }
+
+  h2 {
+    @apply text-2xl font-roc-grotesk;
+  }
+
+  h3 {
+    @apply text-lg font-roc-grotesk;
+  }
+  
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #e5e7eb;
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #d1d5db;
+  }
+  
+  /* Responsive utilities */
+  @media (max-width: 768px) {
+    .responsive-container {
+      width: 100% !important;
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+    }
+    
+    .responsive-text {
+      font-size: 0.9rem !important;
+    }
+  }
+  
+  /* Special breakpoint for overview collapse */
+  @media (max-width: 1511px) {
+    .collapsed-overview {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+      position: absolute !important;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100% !important;
+      max-width: 100% !important;
+      background-color: white;
+    }
+  }
+}
+
+/* Custom styles for components */
+@layer components {
+  .pill {
+    @apply flex items-center bg-pill-bg border border-border rounded-pill px-6 py-3 text-sm;
+  }
+  
+  .side-nav-item {
+    @apply flex items-center w-full p-1 text-base text-nav-icon gap-2;
+  }
+  
+  .side-nav-item-active {
+    @apply flex items-center w-full p-1 text-base text-primary gap-2;
+  }
+  
+  .side-nav-item-selected {
+    @apply flex items-center w-full p-1 text-base text-selected-blue gap-2 bg-light-gray rounded-r-[4px] mr-2;
+  }
+  
+  .side-nav-sub-item {
+    @apply flex items-center w-full p-1 pl-2 text-sm text-secondary gap-2;
+  }
+
+  .header-title {
+    @apply font-roc-grotesk font-medium;
+    font-size: 0.95rem;
+  }
+
+  /* Tag with background color */
+  .meeting-tag {
+    @apply p-3 text-xs font-normal text-tag-text bg-background rounded-[4px] flex items-center gap-2 h-[34px];
+  }
+  
+  /* Tag with white background and border */
+  .onboarding-tag {
+    @apply p-3 text-xs font-normal text-[#494949] bg-white border border-[#E8E8E8] rounded-[4px] flex items-center gap-2 h-[34px];
+  }
+
+  .save-button {
+    @apply bg-accent text-white flex items-center gap-2 rounded-[4px] font-dm-sans font-bold text-sm;
+    padding: 12px 16px;
+  }
+
+  .curated-text {
+    @apply text-curation-text text-sm flex items-center gap-2 opacity-70;
+  }
+
+  .meeting-summary-title {
+    @apply text-2xl font-roc-grotesk font-medium text-black;
+  }
+
+  .meeting-section-title {
+    @apply text-xl font-roc-grotesk font-medium text-black;
+  }
+
+  .transcript-button {
+    @apply flex items-center bg-white text-nav-icon border border-border rounded-pill px-6 py-3 gap-2;
+  }
+  
+  /* Custom scrollbar class for specific elements */
+  .minimal-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #e5e7eb transparent;
+  }
+  
+  .minimal-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .minimal-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .minimal-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #e5e7eb;
+    border-radius: 3px;
+  }
+  
+  .minimal-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #d1d5db;
+  }
+  
+  /* Responsive layout classes */
+  @media (max-width: 768px) {
+    .mobile-full-width {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    
+    .mobile-stack {
+      flex-direction: column !important;
+    }
+    
+    .mobile-hidden {
+      display: none !important;
+    }
+    
+    .mobile-visible {
+      display: block !important;
+    }
+    
+    .mobile-text-sm {
+      font-size: 0.875rem !important;
+    }
+    
+    .mobile-p-4 {
+      padding: 1rem !important;
+    }
+    
+    .mobile-mt-4 {
+      margin-top: 1rem !important;
+    }
+    
+    /* New mobile utilities for Notion-like layout */
+    .mobile-fixed-bottom {
+      position: fixed !important;
+      bottom: 1rem !important;
+      z-index: 20 !important;
+    }
+    
+    .mobile-fixed-bottom-right {
+      right: 1rem !important;
+    }
+    
+    .mobile-fixed-bottom-left {
+      left: 1rem !important;
+    }
+    
+    /* Mobile round button without radius */
+    .mobile-round-button {
+      width: 44px !important;
+      height: 44px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 0 !important;
+    }
+  }
+  
+  /* Compact layout styles for 125% zoom at 1920px resolution */
+  @media (max-width: 1536px) {
+    .compact-layout {
+      width: 100% !important;
+    }
+    
+    .compact-layout-hidden {
+      display: none !important;
+    }
+    
+    .compact-layout-visible {
+      display: block !important;
+    }
+  }
+  
+  /* Summary section responsive layout */
+  .summary-section-content {
+    padding: 0 24px;
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .summary-section-content {
+      padding: 0 16px;
+    }
+  }
+  
+  @media (min-width: 1512px) {
+    .summary-section-content {
+      max-width: 960px;
+    }
+    
+    /* Ensure overview is properly positioned in side-by-side mode */
+    .collapsed-overview {
+      position: relative !important;
+      box-shadow: none;
+      width: 250px !important;
+      max-width: 250px !important;
+    }
+  }
+  
+  /* Layout adjustments for desktop screens */
+  @media (min-width: 1280px) {
+    .summary-content {
+      max-width: 840px;
+      transition: max-width 0.3s ease;
+    }
+    
+    /* When transcription is open on desktop */
+    .transcription-open .summary-content {
+      max-width: calc(100% - 340px);
+      margin-right: 20px;
+    }
+  }
+  
+  /* Ensure the summary section is prioritized for space */
+  @media (max-width: 1279px) and (min-width: 769px) {
+    .summary-content {
+      flex: 1;
+      max-width: 100%;
+      margin-right: 0;
+    }
+  }
+
+  /* Document outline positioning when transcript is open */
+  .transcription-open .absolute[aria-label="Document outline"] {
+    position: fixed;
+    left: 0;
+    z-index: 30;
+  }
+
+  /* Custom classes for outline icon */
+  .outline-stroke {
+    height: 0.75px;
+    border-radius: 1px;
+  }
+
+  /* Layout adjustments for overview full view */
+  @media (min-width: 1512px) {
+    .summary-section-content {
+      max-width: 960px;
+    }
+    
+    /* Ensure overview is properly positioned in side-by-side mode */
+    .collapsed-overview {
+      position: relative !important;
+      box-shadow: none;
+      width: 250px !important;
+      max-width: 250px !important;
+    }
+  }
+
+  /* Tablet-specific adjustments */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .tablet-view {
+      max-width: calc(100% - 20px);
+      padding: 0 16px;
+    }
+    
+    .overview-container {
+      width: 220px !important;
+      max-width: 220px !important;
+    }
+    
+    .tablet-overview {
+      font-size: 14px;
+    }
+    
+    .tablet-overview h2 {
+      font-size: 16px;
+    }
+  }
+
+  /* Desktop and larger tablet adjustments */
+  @media (min-width: 1024px) and (max-width: 1511px) {
+    .overview-container {
+      width: 250px !important;
+      max-width: 250px !important;
+    }
+    
+    .tablet-view {
+      max-width: 740px;
+    }
+  }
+  
+  /* Ensure the overview toggle is always visible at correct position */
+  .overview-toggle-container {
+    position: absolute;
+    left: 12px;
+    top: 24px;
+    z-index: 10;
+  }
+
+  /* Responsive header layout adjustments */
+  @media (max-width: 640px) {
+    /* Meeting header adapts to smaller screens */
+    .header-title {
+      width: 100%;
+      margin-bottom: 4px;
+    }
+    
+    /* Ensure save button is properly positioned */
+    .save-button {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  /* Tablet-specific adjustments */
+  @media (min-width: 641px) and (max-width: 1023px) {
+    /* Header elements don't need to be at 100% width */
+    .header-title {
+      max-width: 50%;
+    }
+  }
+}
