@@ -78,7 +78,7 @@ const FactItem = ({
       <div 
         className={`flex items-center p-3 rounded-lg bg-white hover:bg-[#F2F2F2] active:bg-[#F2F2F2] transition-all duration-200 group ${isDragging ? 'shadow-lg !bg-[#F2F2F2]' : ''}`}
       >
-        <div className="flex items-center gap-3 w-full">
+        <div className="flex items-center gap-2 w-full">
           {/* Drag handle */}
           <div
             className={`flex-shrink-0 cursor-grab active:cursor-grabbing transition-all duration-200 opacity-0 group-hover:opacity-100
