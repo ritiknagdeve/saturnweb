@@ -12,8 +12,8 @@ Follow these steps to get the project running on your local machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd skmesh-final
+git clone https://github.com/ritiknagdeve/saturnweb.git
+cd saturnweb
 ```
 
 ### 2. Install Dependencies
@@ -29,13 +29,10 @@ npm install
 npm run dev
 ```
 
-The app will be available at `http://localhost:3000`
-
 ---
 
 ## 🔗 Live Demo 👨🏻‍💻
-Check out the live version of this project here:
-[Saturn Meeting Summary Interface](https://saturnweb-virid.vercel.app/)
+Check out the live version of this project here: https://saturnweb-virid.vercel.app/
 
 ---
 
@@ -51,8 +48,8 @@ Check out the live version of this project here:
 
 ---
 
-### 2. Section and Fact Management
-- Sections are divided into blocks and subsections.
+### 2. Drag and Drop of Summary List Items
+- Summary Section are divided into blocks and subsections.
 - Each point inside a section (called "facts") is a separate draggable component.
 - Implemented drag-and-drop functionality to reorder facts inside the same section or move them to another.
 - Used [Hello Pangea's DnD library](https://github.com/hello-pangea/dnd) for multi-section drag and drop functionality.
@@ -93,4 +90,4 @@ src/
 ```
 
 ## Acknowledgment
-Thanks to the Saturn team for this challenge, and to the creators of React, Tailwind CSS, and @dnd-kit.
+Thanks to the Saturn team for this challenge, and to the creators of React, Tailwind CSS, and @hello-pangea.
