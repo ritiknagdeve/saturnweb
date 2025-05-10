@@ -1,0 +1,1 @@
+# Font Files\n\nPlace the 'RocGrotesk-Medium.woff2' font file here to properly load the fonts specified in the design.\n\nThe Roc Grotesk font can be obtained from https://www.fontshare.com/fonts/roc-grotesk
