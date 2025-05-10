@@ -213,9 +213,12 @@ function SummarySection({ onActiveSectionChange }) {
     }
   };
 
-  const renderCuratedBy = () => {
+    const renderCuratedBy = () => {
     return (
-      <div className="flex items-center text-gray-400 text-sm mb-5 opacity-70">
+      <div 
+        className="flex items-center text-gray-400 text-sm mb-5 opacity-70"
+        style={{ paddingLeft: "26px" }} // Add padding to align with the list items' vertical strip
+      >
         <img 
           src={sparklesIcon} 
           alt="sparkles"
