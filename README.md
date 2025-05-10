@@ -90,3 +90,10 @@ src/
 ├── App.jsx              # Root app component
 └── main.jsx             # Entry point
 ```
+## 📌 Notes
+* No CMS or backend is integrated – all data is mock/static for demo purposes.
+* The layout is responsive for desktop and tablet breakpoints.
+* Drag-and-drop is built using `@dnd-kit`.
+
+## Acknowledgment
+Thanks to the Saturn team for this challenge, and to the creators of React, Tailwind CSS, and @dnd-kit.
