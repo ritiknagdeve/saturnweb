@@ -1,6 +1,6 @@
 # 🪐 Saturn FE Assignment – Meeting Summary Interface
 
-This project is a web application that replicates a structured meeting summary interface. The goal was to translate a provided [Figma design](https://www.figma.com/design/CZFH9G1yvRZeL6EM1pMOi9/FE-dev-Assignment?node-id=0-1&t=Ab45nYCFSqDRSfrq-0) into a fully working frontend using React and Tailwind CSS, with a focus on interactivity and modular UI components. 
+This project is a web application that replicates a structured meeting summary interface. The goal was to translate a provided [Figma design](https://www.figma.com/design/CZFH9G1yvRZeL6EM1pMOi9/FE-dev-Assignment?node-id=0-1&t=Ab45nYCFSqDRSfrq-0) into a fully working frontend using ReactJS, Tailwind CSS, and Vite as the build tool, with a focus on interactivity and modular UI components.
 
 ![Watch Video Demo](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Frames/Saturn%20UI%20Demo.gif)
 
