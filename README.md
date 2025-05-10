@@ -47,7 +47,7 @@ Check out the live version of this project here:
 - **Central Content Area:** Contains all meeting sections and points inside each. The points are draggable within and across sections.
 - **Right Transcript Panel:** Opens up as a contextual panel to show transcript content based on selected sections.
 
-![Layout Structure](https://github.com/ShraddhaMeshram/saturn/blob/main/Readme%20Screenshots/Layout.png)
+![Layout Structure](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Screenshots/Layout.png)
 
 ---
 
@@ -56,7 +56,7 @@ Check out the live version of this project here:
 - Each point inside a section (called "facts") is a separate draggable component.
 - Implemented drag-and-drop functionality to reorder facts inside the same section or move them to another.
 
-![Draggable Component](https://github.com/ShraddhaMeshram/saturn/blob/main/Readme%20Screenshots/DragnDrop.png)
+![Draggable Component](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Screenshots/DragnDrop.png)
 
 ---
 
