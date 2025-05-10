@@ -47,7 +47,7 @@ Check out the live version of this project here:
 - **Central Content Area:** Contains all meeting sections and points inside each. The points are draggable within and across sections.
 - **Right Transcript Panel:** Opens up as a contextual panel to show transcript content based on selected sections.
 
-![Layout Structure](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Screenshots/Layout.png)
+![Layout Structure](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Frames/Layout.png)
 
 ---
 
@@ -56,7 +56,7 @@ Check out the live version of this project here:
 - Each point inside a section (called "facts") is a separate draggable component.
 - Implemented drag-and-drop functionality to reorder facts inside the same section or move them to another.
 
-![Draggable Component](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Screenshots/DragnDrop.png)
+![Draggable Component](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Frames/DragnDrop.png)
 
 ---
 
@@ -64,7 +64,7 @@ Check out the live version of this project here:
 - Clicking on a section loads corresponding transcript data into a sliding panel on the right.
 - Transcript search bar included to filter through content.
 
-![Transcript Integration](https://github.com/ShraddhaMeshram/saturn/blob/main/Readme%20Screenshots/Transcription.png)
+![Transcript Integration](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Frames/Transcription.png)
 
 ---
 
@@ -75,7 +75,7 @@ The UI is broken down into modular components for scalability:
 - `MainSection`, `SectionBlock`, `SubSectionBlock`, and `FactItem` for meeting structure.
 - `TranscriptionWrapper`, `TranscriptList`, `TranscriptSearchBar` for transcript handling.
 
-![Component Breakdown](https://github.com/ShraddhaMeshram/saturn/blob/main/Readme%20Screenshots/VS%20Code%20SS.png)
+![Component Breakdown](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Frames/VS%20Code%20SS.png)
 
 ---
 
