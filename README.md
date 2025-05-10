@@ -44,7 +44,7 @@ Check out the live version of this project here: https://saturnweb-virid.vercel.
 - **Central Content Area:** Contains all meeting sections and points inside each. The points are draggable within and across sections.
 - **Right Transcript Panel:** Opens up as a contextual panel to show transcript content based on selected sections.
 
-![Layout Structure](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Frames/Layout.png)
+![Layout Structure](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Frames/Saturn%20Main%20Page.png)
 
 ---
 
