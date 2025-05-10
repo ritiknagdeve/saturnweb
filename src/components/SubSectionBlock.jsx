@@ -45,7 +45,7 @@ const SubSectionBlock = ({
             className="relative select-none z-50"
           >
             <div className="flex items-center p-3 rounded-lg bg-white shadow-lg bg-gray-50 transition-all duration-200 group">
-              <div className="flex items-center gap-3 w-full">
+              <div className="flex items-center gap-2 w-full">
                 {/* Drag handle - use active color when dragging */}
                 <div className="flex-shrink-0 cursor-grab active:cursor-grabbing transition-colors duration-200 text-gray-800">
                   <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
