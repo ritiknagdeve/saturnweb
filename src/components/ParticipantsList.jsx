@@ -3,7 +3,7 @@ import React from 'react';
 const ParticipantsList = ({ participants }) => {
   return (
     <div className="meeting-tag">
-      <div className="w-4 h-4 bg-gray-200 rounded-sm"></div>
+      <div class="flex items-center justify-center w-6 h-6 rounded bg-white border text-xs font-medium">A</div>
       <span>{participants.join(' + ')}</span>
     </div>
   );
