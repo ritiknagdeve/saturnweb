@@ -55,6 +55,7 @@ Check out the live version of this project here:
 - Sections are divided into blocks and subsections.
 - Each point inside a section (called "facts") is a separate draggable component.
 - Implemented drag-and-drop functionality to reorder facts inside the same section or move them to another.
+- Used [Hello Pangea's DnD library](https://github.com/hello-pangea/dnd) for multi-section drag and drop functionality.
 
 ![Draggable Component](https://github.com/ritiknagdeve/saturnweb/blob/main/Readme%20Frames/DragnDrop.png)
 
