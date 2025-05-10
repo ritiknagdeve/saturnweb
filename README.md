@@ -32,7 +32,7 @@ npm run dev
 ---
 
 ## 🔗 Live Demo 👨🏻‍💻
-Check out the live version of this project here: https://saturnweb-virid.vercel.app/
+Check out the live version of this project here: https://saturnweb-nqiawfwtt-ritiknagdevework-4477s-projects.vercel.app/
 
 ---
 
